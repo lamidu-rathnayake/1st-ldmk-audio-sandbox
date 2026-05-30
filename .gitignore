@@ -1,24 +1,96 @@
-# Logs
-logs
+# ====================================================================
+# LDMRK SYSTEM WORKSPACE MASTER GITIGNORE
+# ====================================================================
+
+# 📦 Dependency Registries & Package Managers
+# --------------------------------------------------------------------
+node_modules/
+/jspm_packages/
+web_modules/
+.npm/
+.pnpm-store/
+.yarn/
+# Keep your configuration manifest intact
+!.yarn/releases/
+!.yarn/plugins/
+
+# 🚀 Distribution & Production Compilations
+# --------------------------------------------------------------------
+/dist/
+/dist-ssr/
+/build/
+/out/
+/target/
+*.cache/
+.vite/
+.parcel-cache/
+
+# 🔒 Sensitive Environment Configuration Credentials
+# --------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+*.env.local
+config.local.json
+.vst3-signing-key
+*.pem
+*.key
+
+# 🛑 Diagnostic Logs & Process Dumps
+# --------------------------------------------------------------------
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+pid
+*.pid
+*.seed
+*.pid.lock
 
-node_modules
-dist
-dist-ssr
-*.local
+# 🎛️ Audio Software Frameworks & C++ Compiler Artefacts (JUCE / CMake)
+# --------------------------------------------------------------------
+.cmake/
+CMakeLists.txt.user
+/CMakeBuilds/
+/JUCE/Library/
+/Builds/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.suo
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.so
+*.dylib
+*.vst3
+*.component
 
-# Editor directories and files
+# 🎹 DAW Project Settings & Waveform Metadata Clutter
+# --------------------------------------------------------------------
+*.als.backup
+*.flp.bak
+*.wav.asd
+*.pk
+*.reapeaks
+.DS_Store
+Thumbs.db
+
+# 🛠️ Editor Settings & Diagnostics
+# --------------------------------------------------------------------
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
-*.sln
 *.sw?
+.history/
