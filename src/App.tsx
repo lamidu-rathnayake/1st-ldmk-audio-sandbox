@@ -1,5 +1,10 @@
+// src/App.tsx
+import AudioEngine from './components/AudioEngine';
+
 function App() {
-    return <></>;
+    return <>
+        <AudioEngine />
+    </>;
 }
 
 export default App;
