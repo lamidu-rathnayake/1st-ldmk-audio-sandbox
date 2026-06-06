@@ -1,4 +1,4 @@
-# 1st-ldmk-audio-sandbox 🎛️⚡
+# audio-sand-box 🎛️⚡
 ### `Version 1.0.0` | **Developer:** Lamidu Rathnayake (`LDMRK`)
 ### `Target Framework:` Client-Side React + Vite + TypeScript (JUCE 8 WebView Gateway Paradigm)
 
@@ -6,7 +6,7 @@
 
 ## 🌌 Project Vision & Context
 
-**1st-ldmk-audio-sandbox** is the baseline foundational workspace, technical scratchpad, and architecture lab for the **LDMRK** hybrid audio ecosystem. 
+**audio-sand-box** is the baseline foundational workspace, technical scratchpad, and architecture lab for the **LDMRK** hybrid audio ecosystem. 
 
 This repository implements a critical tactical bridge within your multi-year software engineering roadmap leading to your 2028 graduation. By isolating and mastering **Client-Side React, TypeScript strict-type interfaces, and the Web Audio API** inside a zero-server, fast compile-time environment, you are directly designing the exact frontend user interfaces, modular layout systems, and asynchronous state event handlers required to drive modern, high-performance **JUCE 8 WebView** audio plugins.
 
